@@ -1,12 +1,12 @@
+#!/usr/bin/env python
 class Car(object):
-  
-
-  def __init__(self, name='General', model='GM', vehicle_type=None):
+    def __init__(self, name='General', model='GM', vehicle_type=None):
     self.name = name
     self.model = model
     self.vehicle_type = vehicle_type
     self.speed = 0
-
+    self.num_of_doors = 0
+    self.num_of_wheels = 0
 
     if self.name in ['Porshe', 'Koenigsegg']:
       self.num_of_doors = 2
@@ -32,3 +32,6 @@ class Car(object):
       self.speed = 77
 
     return self
+    
+    if __init__ == '__main__':
+      main()
