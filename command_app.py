@@ -18,7 +18,7 @@ twitter_line = TwitterStream(auth=oauth)
 iterate = twitter_line.statuses.sample()
 
 
-tweets = 1000
+tweets = 1
 for tweet in iterate:
     tweets -= 1
     print json.dumps(tweet)  
