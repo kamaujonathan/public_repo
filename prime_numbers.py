@@ -1,4 +1,3 @@
-n=8
 def check_prime_numbers(n): #function to check for prime numbers between 0 and n
         
         for x in range(0,n+1): #the time complexity here can be denoted by 0(n)
@@ -11,4 +10,4 @@ def check_prime_numbers(n): #function to check for prime numbers between 0 and n
                                         break
         
 
-print check_prime_numbers(n)
+
