@@ -17,4 +17,7 @@ class primeNumberTestcase(unittest.TestCase):
 		self.assertFalse(check_prime_numbers(0))
 
 	def test_if_prime_is_negative(self):
-                self.assertFalse(check_prime_numbers(-6))
+		self.assertFalse(check_prime_numbers(-6))
+
+	if __name__ == '__main__':
+		unittest.main()
